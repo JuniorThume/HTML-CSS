@@ -8,11 +8,11 @@ Curso HTML5 e CSS3 do CursoEmVideo
 
 ![Código QR do projeto prático!](frame.png)
 
-================================================
-
-    *Destinado para a descrição das tecnologias e ferramentas utilizadas*
+*Destinado para a descrição das tecnologias e ferramentas utilizadas*
 
 ## Conteúdo aprendido
+
+------------------------------------------------
 
 * Tags Semânticas
 * Hierarquia de Titulos
