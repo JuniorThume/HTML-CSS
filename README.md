@@ -1,10 +1,8 @@
-<div style="text-align: center">
-
-![HTML5 e CSS3!](imagensMD/html_css.png)
+# ![HTML5 e CSS3!](imagensMD/html_css.png)
 
 ----------------------------------------------------------------
 
-# Curso HTML5 e CSS3 do CursoEmVideo
+## Curso HTML5 e CSS3 do CursoEmVideo
 
 **Projeto prático do curso, escaneie o código QR abaixo.**
 
