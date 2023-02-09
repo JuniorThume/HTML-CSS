@@ -8,7 +8,7 @@ Curso HTML5 e CSS3 do CursoEmVideo
 **Destinado para a descrição das tecnologias e ferramentas utilizadas**
 
 ## Conteúdo aprendido
-    ** Tags Semânticas
+    <li>Tags Semânticas</li>
     * Hierarquia de Titulos
     * Imagens 
         * Formatos compatíveis com navegadores
