@@ -76,7 +76,7 @@
   * \<tt>
   * \<var>
 
-### Hierarquia de Titulos
+## Hierarquia de Titulos
 
 * h1
 * h2
@@ -85,7 +85,7 @@
 * h5
 * h6
 
-### Imagens
+## Imagens
 
 * Formatos compatíveis com navegadores
   * PNG (transparência)
@@ -106,13 +106,13 @@
     * rem (relativa ao tamanho que está configurado no root)
     * ex (relativa à altura-x de uma fonte)
 
-### Videos
+## Videos
 
 * Utilizando vídeos do YouTube
 * Vídeos armazenados na pasta do projeto
 * Atributos para inserir vídeo no HTML5
 
-### Fontes
+## Fontes
 
 * Tipos de fontes
 * Anatomia das letras
@@ -125,7 +125,7 @@
 * Tamanhos
 * Serif e Sans-serif
 
-### Cores
+## Cores
 
 * Circulo Cromático
   * Cores Monocromáticas
@@ -139,7 +139,7 @@
 * Paletas de cores harmônicas
 * Adobe Color
 
-### Git e GitHub
+## Git e GitHub
 
 * Comandos
   * git init
