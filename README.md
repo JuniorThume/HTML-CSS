@@ -1,6 +1,6 @@
 <div style="text-align: center">
 
-![HTML5 e CSS3!](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/791px-CSS3_and_HTML5_logos_and_wordmarks.svg.png?20150111171555)
+![HTML5 e CSS3!](imagensMD/html_css.png)
 
 ----------------------------------------------------------------
 
@@ -8,9 +8,8 @@
 
 **Projeto prático do curso, escaneie o código QR abaixo.**
 
-![Código QR do projeto prático!](frame.png)
+![Código QR do projeto prático!](imagensMD/frame.png)
 </div>
-----------------------------------------------------------------
 
 ## Tags Semânticas
 
@@ -76,7 +75,6 @@
   * \<textarea>
   * \<tt>
   * \<var>
-
 
 ### Hierarquia de Titulos
 
