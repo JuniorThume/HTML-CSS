@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1><a href="#id_name">Cadastre-se em nossa Loja</a></h1>
+    </header>
+    <main>
+        <form class="border" action="" method="get">
+            <fieldset class="border">
+                <legend>Dados Pessoais</legend>
+                <p>
+                    <label for="id_name">Nome</label>
+                    <input type="text" name="username" id="id_name" autocomplete="name" required>
+                </p>
+                <p>
+                    <label for="id_lastname">Sobrenome</label>
+                    <input type="text" name="lastname" id="id_lastname" autocomplete="nickname" required>
+                </p>
+                <p>
+                    <label for="id_tel">Telefone</label>
+                    <input type="tel" name="telefone" id="id_tel">
+                </p>
+                <p>
+                    <label for="id_email">Email</label>
+                    <input type="email" name="email" id="id_email">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Informações Bancárias</legend>
+                <p>
+                    <label for="cod_banco">Código do Banco</label>
+                    <input type="text" name="cod_banco" id="cod_banco" maxlength="3" required>
+                </p>
+                <p>
+                    <label for="nome_banco">Nome do Banco</label>
+                    <input type="text" name="nome_banco" id="nome_banco">
+                </p>
+            </fieldset>
+            <p id="alinha_dir">
+                <input class="inline" type="submit" value="Enviar">
+                <input class="inline" type="reset" value="Limpar">
+            </p>
+            
+        </form>
+    </main>
+</body>
+</html>
