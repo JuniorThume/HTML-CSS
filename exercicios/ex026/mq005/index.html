@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
-        <menu>
+        <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="menu-burger">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -34,5 +37,24 @@
             </p>
         </article>
     </main>
+    <script>
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                menu.style.display = "block";
+            }else {
+                menu.style.display = "none";
+            }
+        }
+
+        function clickMenu() {
+            let menu = document.getElementById("menu-burger")
+            if (menu.style.display == "none") {
+                menu.style.display = "block";
+            }else {
+                menu.style.display = "none";
+            }
+            
+        }
+    </script>
 </body>
 </html>
