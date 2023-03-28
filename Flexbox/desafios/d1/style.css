@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to top, lightyellow, lightblue);
+}
+
+body > h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    background-color: rgba(0, 0, 139, 0.87);
+    padding: 25px;
+    border-radius: 20px;
+    width: 90%;
+}
+
+div.imagem {
+    margin: 0px 30px;
+    opacity: 1;
+}
+
+div.imagem:hover {
+    scale: 1.1;
+    transition: 0.2s;
+    animation: up infinite;
+}
+
